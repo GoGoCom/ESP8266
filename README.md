@@ -9,10 +9,10 @@ Welcome to YouTube Lecture for ESP8266
 *ARDUINO Program Running & Installing Library
 ### 2. Hardware Operation Experience
 1.Relay, Buzzer & Debugging
-2.Temperature Sensor
-3.LED WS2812B Neopixel
-4.I2C  OLE Display
-5.Bluetooth Communication
+1.Temperature Sensor
+1.LED WS2812B Neopixel
+1.I2C  OLE Display
+1.Bluetooth Communication
 ### 3. ESP8266 Internal Experience
 EEPROM
 WiFi
