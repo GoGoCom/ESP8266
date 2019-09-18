@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<h2>HTML Table & Input type</h2>
+<form action="tableNinputtypes2.html" method="POST">
+<table style="width:100%">
+  <tr>
+    <th>Text Input</th>
+    <th>Radio Buttons</th>
+    <th>Checkboxes</th>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Mouse"><br><br>
+    </td>
+    <td>
+      <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other  
+    </td>
+    <td>
+      <input type="checkbox" name="vehicle1" value="Bike">I have a bike
+      <br>
+      <input type="checkbox" name="vehicle2" value="Car">I have a car 
+    </td>
+  </tr>
+  <tr width='100%'>
+    <td colspan="3" style="text-align: center">
+    <input type="submit" value="Submit">
+    </td>
+  </tr>
+</table>
+
+</form> 
+
+
+</body>
+</html>
+
+
