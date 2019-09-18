@@ -4,15 +4,15 @@ Welcome to YouTube Lecture for ESP8266
 
 ## Contents
 ### 1. Fundamental Class
-ARDUINO C/C++ 
-ARDUINO Basic Environment Setting
-ARDUINO Program Running & Installing Library
+*ARDUINO C/C++ 
+*ARDUINO Basic Environment Setting
+*ARDUINO Program Running & Installing Library
 ### 2. Hardware Operation Experience
-Relay, Buzzer & Debugging
-Temperature Sensor
-LED WS2812B Neopixel
-I2C  OLE Display
-Bluetooth Communication
+1.Relay, Buzzer & Debugging
+2.Temperature Sensor
+3.LED WS2812B Neopixel
+4.I2C  OLE Display
+5.Bluetooth Communication
 ### 3. ESP8266 Internal Experience
 EEPROM
 WiFi
