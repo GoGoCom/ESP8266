@@ -1,0 +1,210 @@
+[
+    {
+        "id": "c0bf6402.d175a8",
+        "type": "inject",
+        "z": "5230c72.fadcf38",
+        "name": "Fire every 5 seconds",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "921d08ca.121d78"
+            ]
+        ]
+    },
+    {
+        "id": "921d08ca.121d78",
+        "type": "function",
+        "z": "5230c72.fadcf38",
+        "name": "Generate random number",
+        "func": "msg.payload = Math.round(Math.random()*100);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "d03d8fff.136",
+                "92719f03.32a6c",
+                "c469569a.e204a8"
+            ]
+        ]
+    },
+    {
+        "id": "d03d8fff.136",
+        "type": "ui_chart",
+        "z": "5230c72.fadcf38",
+        "name": "",
+        "group": "e638b37.019e95",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "label": "",
+        "chartType": "line",
+        "xformat": "%H:%M:%S",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "5",
+        "removeOlderUnit": "60",
+        "x": 677,
+        "y": 102,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "92719f03.32a6c",
+        "type": "ui_gauge",
+        "z": "5230c72.fadcf38",
+        "name": "Gauge",
+        "group": "e638b37.019e95",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "gtype": "gage",
+        "title": "",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "x": 680,
+        "y": 146,
+        "wires": []
+    },
+    {
+        "id": "c469569a.e204a8",
+        "type": "ui_text",
+        "z": "5230c72.fadcf38",
+        "group": "e638b37.019e95",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "name": "Data output:",
+        "label": "",
+        "format": " {{msg.payload}}",
+        "layout": "",
+        "x": 660,
+        "y": 192,
+        "wires": []
+    },
+    {
+        "id": "b28712f8.be7bb",
+        "type": "ui_slider",
+        "z": "5230c72.fadcf38",
+        "name": "Use Slider to input values",
+        "label": "",
+        "group": "e638b37.019e95",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "passthru": true,
+        "topic": "",
+        "min": 0,
+        "max": "100",
+        "x": 165,
+        "y": 143,
+        "wires": [
+            [
+                "921d08ca.121d78"
+            ]
+        ]
+    },
+    {
+        "id": "88a1ecc7.8415c",
+        "type": "comment",
+        "z": "5230c72.fadcf38",
+        "name": "Flow 2. A simple dashboard demo : click for more info",
+        "info": "This flow demonstrates the Node-RED UI nodes\nYou can quickly build dashboards using the UI\nnodes, eg chart, guage etc\n\nThe timestamp node 'trigger' the flow every \n5 seconds. It sends a message to the function \nnode which generates a random number \nbetween 0-99.\n\nThe number is then sent to 3 UI elements which\ndisplay it.\n\nTo view the Dashboard, open a browser window\nwith the URL: https://fred.sensetecnic.com/red/ui/\n\nWe've also added a slider, which you can use\nto generate a number on the UI which is then \nfed into the flow.\n\n",
+        "x": 221,
+        "y": 58,
+        "wires": []
+    },
+    {
+        "id": "db9b0ddc.cfa",
+        "type": "comment",
+        "z": "5230c72.fadcf38",
+        "name": "You can see this dashboard at: https://fred.sensetecnic.com/red/ui/",
+        "info": "Feel free to add another UI node to show the data\nin a differnt way.\n\nOr how about connecting up a more interesting \nsource of data - perhaps the Yahoo finance data\nthat is 'scraped' in the example above?\n\nor your twitter feed, or an MQTT message or .....",
+        "x": 293.5,
+        "y": 192,
+        "wires": []
+    },
+    {
+        "id": "89667cbf.9cecb",
+        "type": "debug",
+        "z": "5230c72.fadcf38",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 539,
+        "y": 349,
+        "wires": []
+    },
+    {
+        "id": "b5adc21.2fae44",
+        "type": "inject",
+        "z": "5230c72.fadcf38",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "x": 163,
+        "y": 245,
+        "wires": [
+            [
+                "f7048087.a121"
+            ]
+        ]
+    },
+    {
+        "id": "f7048087.a121",
+        "type": "ui_text",
+        "z": "5230c72.fadcf38",
+        "group": "e638b37.019e95",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 678,
+        "y": 237,
+        "wires": []
+    },
+    {
+        "id": "e638b37.019e95",
+        "type": "ui_group",
+        "z": "5230c72.fadcf38",
+        "name": "Dashboard Demo",
+        "tab": "84499b6b.8ac208",
+        "disp": true,
+        "width": "10"
+    },
+    {
+        "id": "84499b6b.8ac208",
+        "type": "ui_tab",
+        "z": "5230c72.fadcf38",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": "1"
+    }
+]
