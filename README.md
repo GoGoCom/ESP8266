@@ -4,9 +4,9 @@ Welcome to YouTube Lecture for ESP8266
 
 ## Contents
 ### 1. Fundamental Class
-- ARDUINO C/C++ 
 - ARDUINO Basic Environment Setting
 - ARDUINO Program Running & Installing Library
+- ARDUINO C/C++ 
 ### 2. Hardware Operation Experience
 - Relay, Buzzer & Debugging
 - Temperature Sensor
