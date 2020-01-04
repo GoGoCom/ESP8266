@@ -40,14 +40,14 @@ Welcome to YouTube Lecture for ESP8266
 - [Node-Red Install](https://youtu.be/jh07Kp2tbMs)
 - [Node-Red Running](https://youtu.be/tIFlVYCLw4Q)
 - [EST8266MQTT PubSubClient](https://youtu.be/WKgMdtCtdro)
-- [EST8266MQTT PubSubClient](https://youtu.be/IHJE5lQI7mk)
+- [EST8266MQTT NodeRed](https://youtu.be/IHJE5lQI7mk)
 - [Temperature, Humidity, Relay Operation](https://youtu.be/OLOFtsrPGGc)
 - [Jason](https://youtu.be/FlilQ9nkO4I)
 - [Port Forward , DDNS](https://youtu.be/IMViN0QGAvY)
 ### 5. DIY - WiFiSwitch
 - [Circuit, PCB,Program, Case Design(3D printing)](https://youtu.be/RDv5FjHP5Xo)
 - [Bluetooth](https://youtu.be/QulaJZXTUxg)
-- [MQTT](https://youtu.be/aZn0C2d3mKg)
+- [JSON, FRED, MQTT](https://youtu.be/aZn0C2d3mKg)
 ## [Our Website](https://GoGoCom.github.io/)
 ## [YouTube WiFiStwitch](https://youtu.be/H9YjLBqm_VE)
 
