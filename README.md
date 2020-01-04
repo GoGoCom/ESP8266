@@ -12,14 +12,15 @@ Welcome to YouTube Lecture for ESP8266
   - [Operator](https://youtu.be/Ua6nBRjVqdc)
   - [Flow Control](https://youtu.be/5EHK0ps3G9E)
   - [Compile](https://youtu.be/Ue2AbuZHpxg)
-  - C++ : [Class & Object](https://youtu.be/ICh2nTJk29E)
-          [Inheritance & Polymorphism](https://youtu.be/aynaNYOh_2A)
+  - C++ 
+    - [Class & Object](https://youtu.be/ICh2nTJk29E)
+    - [Inheritance & Polymorphism](https://youtu.be/aynaNYOh_2A)
 ### 2. Hardware Operation Experience
 - [Relay](https://youtu.be/CpzohTQOwz0)
 - [Buzzer](https://youtu.be/HYZvMa8oElU)
 - Temperature Sensor
-   [DHT22](https://youtu.be/7DIk08-u8mo)
-   [DS18B20](https://youtu.be/A37lg_PZiYQ)
+   - [DHT22](https://youtu.be/7DIk08-u8mo)
+   - [DS18B20](https://youtu.be/A37lg_PZiYQ)
 - [LED WS2812B Neopixel](https://youtu.be/egXmU_p3yb4)
 - [I2C  OLE Display](https://youtu.be/r0wPfdEN5Kc)
 - [Bluetooth](https://youtu.be/iZtiVULcuNY)
