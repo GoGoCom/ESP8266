@@ -51,6 +51,9 @@ Welcome to YouTube Lecture for ESP8266
 ### 6. Blynk
 - [Introduction of Blynk](https://youtu.be/o-JLenDly64)
 - [Blynk - Heater](https://youtu.be/stAkdMGl5TU)
+### 7. Voice Control
+- [Introduction of IFTTT, Google Assitant and Adafruit](https://youtu.be/3wgT0iNDrnI)
+- [Voice Control Preparation](https://youtu.be/-zy5h0WDZeI)
 ## [Our Website](https://GoGoCom.github.io/)
 ## [YouTube WiFiStwitch](https://youtu.be/H9YjLBqm_VE)
 # Thank you so much!
